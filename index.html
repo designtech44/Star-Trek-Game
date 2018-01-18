@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Star trek RPG Game with jQuery</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Joti+One" rel="stylesheet">
+  <!-- Folder structure / CSS-->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- jQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Game Logic -->
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+
+  <div class="main-section-title">Star Trek War Games!</div>
+  <div id="main-game-section">
+    <!--Where the characters are initially available to be selected.-->
+    <div id="characters-section">
+      <div class="section-title">Select You character</div>
+    </div>
+
+    <!-- Section for our selected character -->
+    <div id="selected-character-section">
+      <div class="section-title">Your character</div>
+      <!--Where our selected character will appear. -->
+      <div id="selected-character"></div>
+    </div>
+
+        <!--Wher our selected character will appear. -->
+      <div id="available-to-attack-section">
+        <div class="section-title">Enemies Available To Attack</div>
+      </div>
+
+      <div class="section-title">Fight Section</div>
+      <div id="fight-section">
+        <button id="attack-button">Attack</button>
+      </div>
+
+      <div id="action">
+        <div class="characters-section">
+          <div class="section-title">Defender</div>
+          <!-- Where our defender will appear -->
+          <div id="defender"></div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Area for game messages -->
+    <div style="font-size: 20px; font-family: 'Joti+One'"></div>
+    <div id="game-message"></div>
+    <!--Game Logic -->
+</body>
+
+</html>
